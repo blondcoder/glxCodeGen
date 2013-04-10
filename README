@@ -25,7 +25,7 @@ launcher2.php - a more complex example
 launcher_argp.php - a real example usage 
 
 You can launch all examples typing 
-# ``./demo.sh``
+# ./demo.sh
 
 License
 ------------
