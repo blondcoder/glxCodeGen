@@ -1,5 +1,10 @@
-glxCodeGen: a simple PHP Class Code Generator
-	
+==================================
+A simple PHP Class Code Generator
+==================================
+
+Overview
+--------
+
 glxCodeGen utility helps you to inject code into your source files.
 It is written in php and it is useful for ripetitive tasks or to 
 manage of complex structures. The examples provided here are 
@@ -20,6 +25,14 @@ launcher2.php - a more complex example
 launcher_argp.php - a real example usage 
 
 You can launch all examples typing 
-# ./demo.sh
+# ``./demo.sh``
+
+License
+------------
+
+GNU General Public License v3
+
+Report a Bug
+------------
 
 Contact: Alessandro Galassini <gx.solutions@gmail.com>
