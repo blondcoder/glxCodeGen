@@ -1,0 +1,70 @@
+Installation Instructions
+*************************
+
+Copyright (C) 2013 Alessandro Galassini
+
+   Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.  This file is offered as-is,
+without warranty of any kind.
+
+Prerequistes
+==================
+PHP 5.3 or above.
+
+Basic Installation
+==================
+You can find three examples. 
+launcher1.php
+launcher2.php
+launcher_argp.php
+
+
+You can lauch them with demo.sh
+
+# ./demo.sh 
+	Calling launcher1.php...
+	Success, wrote to file ./src/main.c ! 
+	Compiling src/main.c
+	**************************
+	*** glxCodeGen 1 start ***
+	**************************
+	vrrms4 = 417.450012
+	fr4 = 312.490479
+	angr4 = 360.670013
+	************************
+	*** glxCodeGen 1 end ***
+	************************
+	Calling launcher2.php...
+	Success, wrote to file ./src2/main.c ! 
+	Success, wrote to file ./src2/main.h ! 
+	Success, wrote to file ./src2/main.c ! 
+	Compiling src2/main.c
+	Execution of compiled program:
+	**************************
+	*** glxCodeGen 2 start ***
+	**************************
+	N = 7
+	vrrms4 = 417.450012
+	angr4 = 360.670013
+	************************
+	*** glxCodeGen 2 end ***
+	************************
+	Calling launcher_argp.php...
+	Success, wrote to file ./src_argp/main.c ! 
+	Success, wrote to file ./src_argp/main.c ! 
+	Success, wrote to file ./src_argp/main.c ! 
+	Success, wrote to file ./src_argp/main.c ! 
+	Compiling src_argp/main.c
+	Execution of compiled program:
+	
+	ARG1 = glx_ARG1
+	ARG2 = glx_ARG2
+	OUTPUT_FILE = -
+	VERBOSE = no
+	SILENT = yes
+	a = 45.87
+	b = 90
+	
+
+
