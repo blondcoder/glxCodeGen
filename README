@@ -1,1 +1,25 @@
-Contact: gx.solutions@gmail.com
+glxCodeGen: a simple PHP Class Code Generator
+	
+glxCodeGen utility helps you to inject code into your source files.
+It is written in php and it is useful for ripetitive tasks or to 
+manage of complex structures. The examples provided here are 
+very simple and they are not so much useful. But think to manage 
+more than 200 user GNU argplib input or to share a lots of variables 
+with other software developers.
+
+glxCodeGen helps you to change your source code automatically.  
+ 
+With glxCodeGen you need just three steps:
+1. choose a delimiter for your source files;
+2. define one array with your datas; 
+3. extends the glxCodeGen class to inject your code.
+
+You can find three examples:
+launcher1.php - minimal example
+launcher2.php - a more complex example
+launcher_argp.php - a real example usage 
+
+You can launch all examples typing 
+# ./demo.sh
+
+Contact: Alessandro Galassini <gx.solutions@gmail.com>

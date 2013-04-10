@@ -17,9 +17,7 @@ int main(){
  */
 //glxCodeGen delimitator
 
-float vrrms4 = 417.45;
-float fr4 = 312.4904633;
-float angr4 = 360.67;
+
 
 //glxCodeGen delimitator
 
@@ -28,8 +26,7 @@ float angr4 = 360.67;
  */
 //glxCodeGen delimitator 2
 
-printf("vrrms4 = %f\n", vrrms4);
-printf("angr4 = %f\n", angr4);
+
 
 //glxCodeGen delimitator 2
 

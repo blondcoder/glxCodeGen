@@ -17,11 +17,7 @@ static struct argp_option options[] = {
 
 //glxCodeGen delimitator
 
-	{"verbose", 	'v', 	0, 	0, 	"Produce verbose output", 	0 },
-	{"silent", 	's', 	0, 	0, 	"Don't produce any output", 	0 },
-	{"output", 	'o', 	"FILE", 	0, 	"Output to FILE instead of standard output", 	0 },
-	{"a", 	2000, 	"INPUT_NUMBER", 	0, 	"Input float number", 	0 },
-	{"b", 	2001, 	"INPUT_NUMBER", 	0, 	"Input integer number", 	0 },
+
 
 //glxCodeGen delimitator
 
@@ -35,11 +31,7 @@ struct arguments
 
 //glxCodeGen delimitator2
 
-	int verbose;
-	int silent;
-	char* output;
-	float a;
-	int b;
+
 
 //glxCodeGen delimitator2
 
@@ -57,21 +49,7 @@ parse_opt (int key, char *arg, struct argp_state *state)
 	{
 //glxCodeGen delimitator3
 
-	case 'v' : 
-		arguments->verbose = 1;
-		break;
-	case 's' : 
-		arguments->silent = 1;
-		break;
-	case 'o' : 
-		arguments->output = arg;
-		break;
-	case 2000 : 
-		arguments->a = arg ? atof (arg) : 10;
-		break;
-	case 2001 : 
-		arguments->b = arg ? atoi (arg) : 10;
-		break;
+
 
 //glxCodeGen delimitator3
 
@@ -106,11 +84,7 @@ main (int argc, char **argv)
 
 //glxCodeGen delimitator4
 
-	arguments.verbose = 0;
-	arguments.silent = 0;
-	arguments.output = "-";
-	arguments.a = 45.87;
-	arguments.b = 90;
+
 
 //glxCodeGen delimitator4
  

@@ -7,7 +7,7 @@
  */
 //glxCodeGen delimitator
 
-#define N 7
+
 
 //glxCodeGen delimitator
 
